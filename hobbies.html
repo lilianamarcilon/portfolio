@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  Página pessoal com fotos e descrição-->
+ <title>QUEM SOU EU</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="cv3.css">
+</head>
+<body>
+ <div class="col-md-offset-2 col-md-8" style="background: #E4E5E9" id="wrapper">
+  
+   <!--  inicio do header -->
+  <div id="header">
+   <div>
+      <img src="Lili2.jpeg" id="image">
+     </div>
+   <div>
+    <h2 id="name">Liliana Marcilon</h2>
+    <p id="underline"></p>
+    <h5 id="web">Quem sou eu</h5>
+   </div>
+  </div>
+  <!--  fim do header -->
+  
+  <div class="row">
+   <div class="col-md-12">
+    <!--  Corpo da página. Informações pessoais. Uso do CSS para fazer a imagem aparecer quando passar o mouse em cima do nome Mily -->
+    <h4>QUEM É LILIANA?</h4><br>
+    <p>Olá, Sou Liliana, esposa e mãe. Casada com o Reginaldo e tenho duas filhas humanas: Julie e Sue e uma neta pet: 
+       <a href="#">Mily<span><img src="mily.jpeg"></span></a></p> 
+    <p>Somos de Fortaleza/CE, mas nos apaixonamos por Curitiba e ano passado mudamos para cá.</p> 
+    <p>Gosto de viajar, assistir séries, dormir, estudar, comer...</p> 
+    <img id="image-family" src="familia.jpeg" alt="logotipo">
+</div>
+ <style>
+a {
+   position: relative; /* Para que a imagem não saia fora do link */
+   display: block;
+   width: 50px;
+
+}
+a:hover {
+   background-color: pink; /* Muda a cor do Background quando passa o mouse em cima */
+}
+a span {
+display: none; /* Deixa a imagem que está dentro do sapn invisível */
+}
+a:hover span {
+display: block; 
+position: absolute; 
+top: 0px; 
+left: 100%; 
+border: 1px #CCCCCC solid;
+}
+</style>
+   </div>
+  </div>
+ </div>
+</body>
+</html>
